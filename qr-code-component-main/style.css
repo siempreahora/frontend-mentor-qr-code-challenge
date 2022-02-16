@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  */
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  display: grid;
+  width: 350px;
+  padding: 30px;
+  grid-template-columns: 1fr;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.component {
+  border-radius: 20px;
+  box-shadow: hsl(220, 15%, 55%);
+  background-color: hsl(0, 0%, 100%);
+
+  padding: 15px 0 0 0;
+}
+
+.qr-img {
+  display: block;
+  margin: 0 auto 20px;
+  padding-top: 0 50px;
+  width: 90%;
+  border-radius: 12px;
+}
+
+.comp-box {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.primary-text {
+  color: hsl(218, 44%, 22%);
+  font-size: 15px;
+  font-weight: 700;
+
+  margin: 0 40px 14px;
+}
+
+.secondary-text {
+  color: hsl(220, 15%, 55%);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 35px 36px;
+}
